@@ -15,3 +15,5 @@ nameForm.addEventListener('submit', e => {
     dispatch({ type: 'ADD_NAME', name: name.value });
     name.value = "";
 });
+
+
